@@ -1,0 +1,26 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /*boxes section*/
+ .boxes{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    font-weight: 900;
+    text-align: center;
+    font-size: 30px;
+ }
+ .box:nth-child(1){
+    background-color: whitesmoke;
+ }
+ .box:nth-child(2){
+    background-color: blue;
+ }
+ .box:nth-child(3){
+    background-color: whitesmoke;
+ }
