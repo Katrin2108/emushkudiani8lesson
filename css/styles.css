@@ -2,8 +2,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container-header {
+    max-width: 1440;
+    width: 100%;
+    margin: auto;
+    padding: 0 230px;
+}
 header{
     background-color: #0A22F4;
+    padding: 20px;
+}
+header  nav a{
+    color: #FFFFFF;
 }
 .navbar ul{
     display: flex;
@@ -20,13 +30,26 @@ header{
     padding-bottom: 80px;
     padding-left: 270px;
 }
+.line{
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.contact-title{
+    vertical-align: middle;
+    padding: 19px 81px;
+    color: black;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-family: HelveticaNeueBold;
+}
 .navbar a{
     font-size: 16px;
     text-decoration: none;
-    color: #FFFFFF;
     text-transform: capitalize;
     text-decoration-line: none;
+    font-family: HelveticaNeue;
 }
+
  /*boxes section*/
  .boxes{
     display: flex;
