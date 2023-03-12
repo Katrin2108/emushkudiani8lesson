@@ -14,6 +14,7 @@ header{
 }
 header  nav a{
     color: #FFFFFF;
+    font-size: 16px;
 }
 .navbar ul{
     display: flex;
@@ -31,8 +32,9 @@ header  nav a{
     padding-left: 270px;
 }
 .line{
-    text-decoration-line: underline;
+   text-decoration-line: underline;
     color: #FFFFFF;
+    font-size: 16px;
 }
 .contact-title{
     vertical-align: middle;
